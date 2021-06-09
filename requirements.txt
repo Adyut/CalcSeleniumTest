@@ -1,0 +1,32 @@
+Python 3.6.4 Selenium Calculator testing App Requirements 
+-----------------------------------------------------------
+# PyCharm used as IDE for this project
+PyCharm 2021.1.2 (Community Edition)
+Build #PC-211.7442.45, built on June 2, 2021
+Runtime version: 11.0.11+9-b1341.57 amd64
+VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.
+Windows 10 10.0
+
+
+# Install Selenium
+>> pip install -U selenium
+
+# Browser driver
+Get Browser driver required for your Browser from below portal under section "Drivers"
+https://pypi.org/project/selenium/
+
+# Main Testing file is 
+"<Project_Dir>\SeleniumTest\test\CalcSeleniumTest.py"
+
+# Save / Unzip file on local machine, need to copy that file path in code, in file 
+"<Project_Dir>\SeleniumTest\test\CalcSeleniumTest.py"
+at line number 7 in double quotes.
+e.g. I used for Chrome as below
+driver = webdriver.Chrome(r"D:/selenium_chromedriver_win32/chromedriver.exe")
+
+# Run the file to start testing. 
+Browser will be opened an randomely 50 operations will be done as Simple Testing 
+And 50 Operations will be Done with Decimal Point.
+To Limit the scope testing of Memory Operations and Negative Operator Testing NOT covered.
+
+Thank You
